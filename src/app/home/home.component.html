@@ -1,0 +1,22 @@
+<p>home works!</p>
+<p>Text</p>
+<input type="text">
+<hr>
+<button>Translate</button>
+
+<table>
+	<thead>
+		<th>#Post_ID</th>
+		<th>Post</th>
+		<th>user</th>
+	</thead>
+	<tbody>
+		<tr *ngFor="let post of posts">
+			<td>{{post.id}}</td>
+			<td>{{post.body}}</td>
+			<td>{{post.userId}}</td>
+		</tr>
+	</tbody>
+</table>
+
+{{error}}
